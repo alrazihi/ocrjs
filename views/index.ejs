@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+<body>
+<p>Enter some text in the fields below, then press the "Submit form" button to submit the form.</p>
+
+<div id="myProgress">
+    <div id="myBar"></div>
+  </div>
+
+
+</body>
+</html>
+
+<form method="POST" action="/upload" enctype="multipart/form-data">
+    <input type="file" name="avatar"  />
+    <select name="sele" id="sele">
+        <option value="eng">English</option>
+        <option value="ara">Arabic</option>
+        <option value="fra">French</option>
+    </select>
+    <input type="submit" />
+  </form>
