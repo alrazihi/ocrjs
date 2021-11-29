@@ -54,4 +54,6 @@ app.get("/download", (req, res) => {
 });
 
 const PORT = 5000 || process.env.PORT;
-app.listen(PORT, () => console.log("hala I'm on port" + PORT));
+app.listen(PORT, () =>
+  console.log("Hala I'm on port http://localhost:" + PORT)
+);
